@@ -44,6 +44,27 @@ print("While loop:")
 count=0
 while count < 5:
       print("Count:", count)
-      count +=1
+      count += 1
+
+#break and continue
+print("Break and Continue:")
+for i in range(5):
+      if i == 2:
+            break
+      print("Iteration:", i)
+
+for i in range(5):
+      if i == 2:
+            continue
+      print("Iteration:", i)
+
+#do - while loop simulation
+print("Do-While loop SImulation:")
+count = 0
+while True:
+      print("Count:", count)
+      count += 1
+      if count>= 5:
+            break 
 
 
