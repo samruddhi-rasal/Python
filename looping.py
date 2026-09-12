@@ -1,3 +1,4 @@
+"""
 marks = 45
 if marks >= 90:
     print("Grade A+")
@@ -32,6 +33,17 @@ match day:
             print("Sunday")
     case _:
             print("Invalid day")
+            """
 
+#loops - for , while
+print("For loop:")
+for i in range(5):
+      print("Iteration:", i)
+
+print("While loop:")
+count=0
+while count < 5:
+      print("Count:", count)
+      count +=1
 
 
