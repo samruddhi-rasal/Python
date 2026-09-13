@@ -10,3 +10,7 @@ class Point:
 center=Point(45,56)
 topleft=Point(77,89)
 rightbottom=Point(99,12)
+
+center.show()
+topleft.show()
+rightbottom.show()
